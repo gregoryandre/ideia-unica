@@ -1,9 +1,14 @@
+
 import { useState } from 'react';
+import Link from 'next/link';
 function Home(){
         return (
             <div>
                 <h1>Home - André Gregory</h1>
                 <Contador/>
+                <Link href="/sobre">
+                    <a>Acessar página sobre</a>
+                </Link> 
             </div>
         )
 }
@@ -18,7 +23,7 @@ function Contador(){
     return (
         <div>
             <div>{contador}</div>
-            <button onClick={adicionarContador}>Adicionat</button>
+            <button onClick={adicionarContador}>Adicionar</button>
         </div>)
 }
 
