@@ -4,7 +4,7 @@ function Sobre(){
         return (
             <div>
                 <h1>Sobre - André Gregory</h1>
-                <Link href="">
+                <Link href="/">
                     <a>Acessar página Home</a>
                 </Link> 
             </div>
